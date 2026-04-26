@@ -9,7 +9,7 @@ client = Client(
   headers={'Authorization': 'Bearer ' + os.environ.get('OLLAMA_API_KEY')}
 )
 
-print("--- Ollama Cloud Interactive Session ---")
+print("--- Ollama running ---")
 print("Type 'exit' or 'quit' to stop.\n")
 
 while True:
